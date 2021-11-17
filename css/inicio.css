@@ -1,0 +1,14 @@
+body{
+    background-image:url('bg.jpg')!important;
+    background-attachment: fixed!important;
+}
+
+#navbrand
+{
+    background: #f5ecdd !important; 
+}
+    
+.modal-content
+{
+    background-color: #f2e7d4!important;
+}

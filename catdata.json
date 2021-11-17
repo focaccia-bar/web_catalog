@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Pitas Frias",
+    "descripcion": "racion equilibrio para gatos adultos 1.5kg",
+    "imagen": "Imagenes/img1"
+  },
+  {
+    "nombre": "Pitas Calientes",
+    "descripcion": "racion equilibrio para perros medianos 1.5kg",
+    "imagen": "Imagenes/img2"
+  },
+  {
+    "nombre": "Focaccias",
+    "descripcion": "racion equilibrio para perros medianos 1.5kg",
+    "imagen": "Imagenes/img2"
+  },
+  {
+    "nombre": "De Bar",
+    "descripcion": "racion equilibrio para perros medianos 1.5kg",
+    "imagen": "Imagenes/img2"
+  },
+  {
+    "nombre": "Calzone",
+    "descripcion": "racion equilibrio para perros medianos 1.5kg",
+    "imagen": "Imagenes/img2"
+  },
+  {
+    "nombre": "Pizzas",
+    "descripcion": "racion equilibrio para perros medianos 1.5kg",
+    "imagen": "Imagenes/img2"
+  },
+  {
+    "nombre": "Bebidas",
+    "descripcion": "racion equilibrio para perros medianos 1.5kg",
+    "imagen": "Imagenes/img2"
+  }
+]

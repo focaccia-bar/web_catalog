@@ -185,3 +185,26 @@ document.addEventListener("DOMContentLoaded", function()
 
 /*   
         */
+
+function mvdProc()
+{
+  if(sessionStorage.getItem("mvd")==undefined)
+  {
+    sessionStorage.setItem("mvd",0);
+  }else{
+    sessionStorage.removeItem("mvd");
+    sessionStorage.setItem("mvd",0);
+  }
+  
+}
+
+function pdeProc()
+{
+  if(sessionStorage.getItem("mvd")==undefined)
+  {
+    sessionStorage.setItem("mvd",1);
+  }else{
+    sessionStorage.removeItem("mvd");
+    sessionStorage.setItem("mvd",1);
+  }
+}

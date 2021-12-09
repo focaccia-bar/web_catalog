@@ -9,12 +9,13 @@ function recordarSeleccion(num)
 
 }
 
-function loadCategories()
+function loadCategories(mvd)
 {
-    
+  let list_to_load = mvd==0 ? catdatamvd : catdatapde;
+  console.log(mvd)
 
     let htmltoappend = "";
-    for (let cat of catdata)
+    for (let cat of list_to_load)
     {
        htmltoappend +=  `
        
@@ -42,6 +43,6 @@ console.log("Esto esta conectado")
 document.addEventListener("DOMContentLoaded", function()
 {
     
-    loadCategories();
+    loadCategories(sessionStorage.getItem("mvd"));
 })
 

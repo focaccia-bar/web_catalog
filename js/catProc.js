@@ -33,6 +33,23 @@ function cargarProductos(num)
     case 8: seleccionPrevia = BebidasData;
     break;
 
+    case 9: seleccionPrevia = PizzasPDEData;
+    break;
+    
+    case 10:seleccionPrevia = CalzonePDEData;
+      break;  
+
+
+    case 11:seleccionPrevia = BarPDEData;
+      break;  
+
+
+    case 12:seleccionPrevia = RefuerzosPDEData;
+      break;
+
+    case 13:seleccionPrevia = DulcesPDEData;
+    break;
+
     default: seleccionPrevia = PizzasData;
     break;
   }
@@ -90,10 +107,11 @@ function limpiarProductos(){
   document.getElementById("insertcards").innerHTML="";
 }
 
-function cargarCategorias()
+function cargarCategorias(mvd)
 {
   let htmltoappend ="";
-  for(let cat of catdata)
+  let list_to_load = mvd==0 ? catdatamvd : catdatapde;
+  for(let cat of list_to_load)
   {
     htmltoappend+=`<button type="button" class="m-1 btn btn-outline-danger rounded-pill text-white" onclick="cargarProductos(${cat.lista})">${cat.nombre}</button>`;
   }
@@ -107,7 +125,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
   
   catSeleccionada = parseInt(sessionStorage.getItem("seleccion"));
   
-  cargarCategorias();
+  cargarCategorias(sessionStorage.getItem("mvd"));
   sessionStorage.removeItem("seleccion");
   cargarProductos(catSeleccionada);
 

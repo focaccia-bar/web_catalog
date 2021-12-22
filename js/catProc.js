@@ -50,6 +50,9 @@ function cargarProductos(num)
     case 13:seleccionPrevia = DulcesPDEData;
     break;
 
+    case 14:seleccionPrevia = BebidasPDEData;
+    break;
+
     default: seleccionPrevia = PizzasData;
     break;
   }

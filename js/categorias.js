@@ -93,7 +93,7 @@ let catdatapde = [{
     nombre:"Bebidas",
     descripcion:"Cerveza, Refrescos de la linea Coca-Cola®",
     imagen:"bg.jpg",
-    lista:8}];
+    lista:14}];
 
 
 
@@ -235,16 +235,17 @@ let BarData = [{
 let BarPDEData = [{
     nombre:"Fainá",
     descripcion:"1 Porcion",
-    precio:110,
+    precio:120,
     imagen:"img/faina.jpg"
 },{
     nombre:"Focaccia del Día",
     descripcion:`
-    Dips para acompañar:
+    Dips para acompañar ($50):
         - Queso crema y ciboullete
         - Tapenade
         - Pesto de tomates secos
         - Pesto de albahaca
+        
     
     `,
     precio:160,
@@ -255,34 +256,34 @@ let BarPDEData = [{
 let RefuerzosPDEData = [{
     nombre:"Clásico",
     descripcion:"queso dambo, jamón y muzzarella",
-    precio:500,
+    precio:280,
     imagen:"bg.jpg"
 },{
     nombre:"Capresse",
     descripcion:"tomate fresco, mozzarella de bola, albahaca, pimienta negra y aceite de oliva",
-    precio:520,
+    precio:280,
     imagen:"img/ccapr.jpg"
 },{
     nombre:"Jamón Crudo",
     descripcion:"jamón crudo, queso brie, rúcula y pesto de tomates secos",
-    precio:530,
+    precio:370,
     imagen:"bg.jpg"
 }];
 
 let DulcesPDEData = [{
     nombre:"Pie de limón",
     descripcion:"",
-    precio:500,
+    precio:200,
     imagen:"bg.jpg"
 },{
-    nombre:"Tiramisú",
-    descripcion:"",
-    precio:520,
+    nombre:"Cheesecake ",
+    descripcion:"con salsa de frutos rojos",
+    precio:210,
     imagen:"img/ccapr.jpg"
 },{
     nombre:"Pastel de peras y frutos rojos",
     descripcion:"",
-    precio:530,
+    precio:210,
     imagen:"bg.jpg"
 }];
 
@@ -293,17 +294,17 @@ let DulcesPDEData = [{
 let CalzonePDEData = [{
     nombre:"De Bondiola",
     descripcion:"tomates asados, ricota cremosa, bondiola y mozzarella",
-    precio:500,
+    precio:590,
     imagen:"bg.jpg"
 },{
     nombre:"Pesca Fresca",
     descripcion:"pesca del día al horno con vegetales y queso fundido",
-    precio:520,
+    precio:620,
     imagen:"img/ccapr.jpg"
 },{
     nombre:"De Vegetales",
     descripcion:"verduras asadas, ricota cremosa y queso fundido",
-    precio:530,
+    precio:610,
     imagen:"bg.jpg"
 }];
 
@@ -452,42 +453,42 @@ let PizzasData = [{
 let PizzasPDEData = [{
     nombre:"Margarita",
     descripcion:"salsa de tomate, mozzarella, albahaca y aceite de oliva",
-    precio:390,
+    precio:420,
     imagen:"img/marga.png"
 },{
     nombre:"Marinara",
     descripcion:"salsa de tomate, anchoas, ajos asados y toque de tapenade",
-    precio:410,
+    precio:420,
     imagen:"bg.jpg"
 },{
     nombre:"Escalivada",
     descripcion:"vegetales asados macerados en aceite especiado y rúcula",
-    precio:430,
+    precio:520,
     imagen:"bg.jpg"
 },{
     nombre:"Jamón Crudo",
     descripcion:"salsa de tomate, mozzarella, jamón crudo, rúcula, parmesano y aceite de oliva",
-    precio:430,
+    precio:570,
     imagen:"bg.jpg"
 },{
     nombre:"Bianca",
     descripcion:"queso crema, cebolla de verdeo, panceta crujiente y ciboulette",
-    precio:390,
+    precio:525,
     imagen:"bg.jpg"
 },{
     nombre:"De Hongos",
     descripcion:"Champiñones frescos, cebollas asadas, queso provolone, toque de crema y pesto de albahaca",
-    precio:450,
+    precio:490,
     imagen:"bg.jpg"
 },{
     nombre:"Camarón",
     descripcion:"salsa de tomate, mozzarella y camarones al ajillo",
-    precio:460,
+    precio:570,
     imagen:"bg.jpg"
 },{
     nombre:"Cuatro quesos",
     descripcion:"salsa de tomate, provolone, mozzarella, parmesano y queso azu",
-    precio:460,
+    precio:525,
     imagen:"bg.jpg"
 }];
 
@@ -578,5 +579,37 @@ let BebidasData = [{
     nombre:"Sin alcohol 330cc",
     descripcion:"",
     precio:"",
+    imagen:"bg.jpg"
+}];
+
+let BebidasPDEData = [{
+    nombre:"Refresco 600ml",
+    descripcion:"",
+    precio:110,
+    imagen:"bg.jpg"
+},{
+    nombre:"Aquarius",
+    descripcion:"",
+    precio:90,
+    imagen:"bg.jpg"
+},{
+    nombre:"Refresco 1.5L",
+    descripcion:"",
+    precio:160,
+    imagen:"bg.jpg"
+},{
+    nombre:"Cervezas 330cc",
+    descripcion:"",
+    precio:120,
+    imagen:"bg.jpg"
+},{
+    nombre:"Cervezas 1L",
+    descripcion:"",
+    precio:250,
+    imagen:"bg.jpg"
+},{
+    nombre:"Artesanales 500cc",
+    descripcion:"",
+    precio:220,
     imagen:"bg.jpg"
 }];

@@ -22,7 +22,7 @@ function navloader()
             Productos
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="productos.html" onclick="mvdProc()">Montevideo</a></li>
+            <li><a class="dropdown-item" href="productos.html">Montevideo</a></li>
             <li><a class="dropdown-item" href="productos.html" onclick="pdeProc()">Punta Del Este</a></li>
             
           </ul>

@@ -53,7 +53,7 @@ function cargarProductos(num)
     case 14:seleccionPrevia = BebidasPDEData;
     break;
 
-    default: seleccionPrevia = PizzasData;
+    default: seleccionPrevia = PizzasPDEData;
     break;
   }
   
@@ -133,6 +133,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
   cargarProductos(catSeleccionada);
 
 })
+
+document.addEventListener()
 
 
 

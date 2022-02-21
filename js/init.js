@@ -98,7 +98,7 @@ function footloader()
             <a href="" class="text-white me-4">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://www.instagram.com/focacciaprado/" class="text-white me-4">
+            <a href="https://www.instagram.com/focaccia_bardepizzas/" class="text-white me-4">
               <img src="focaccia favico.png" alt="" style="width: 1em;">Instagram
             </a>
           </div>
@@ -144,8 +144,8 @@ function footloader()
                     />
                 <p><i class="fas fa-home mr-3"></i> Venancio Benavidez 3415 esq. Lucas Obes. Montevideo, Uruguay</p>
                 <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                <p><i class="fas fa-phone mr-3"></i>22000386</p>
-                <p><i class="fas fa-print mr-3"></i>099291229</p>
+                <p>Montevideo : <i class="fas fa-phone mr-3"></i>22000386 //  099291229</p>
+                <p>Maldonado : <i class="fas fa-print mr-3">092442477</i></p>
               </div>
               <!-- Grid column -->
             </div>

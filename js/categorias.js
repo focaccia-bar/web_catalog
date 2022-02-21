@@ -256,7 +256,7 @@ let catdatamvd = [{
         nombre:"Bella",
         descripcion:"S. de tomate, mozzarella, rúcula, pesto de tomates secos, lascas de parmesano",
         precio:460,
-        imagen:"img/wip.jpg"
+        imagen:"img/bella.jpg"
     },{
         nombre:"Bondiola",
         descripcion:"S. de tomate, mozzarella, bondiola, rúcula, tapenade",

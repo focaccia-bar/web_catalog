@@ -22,13 +22,13 @@ function navloader()
             Productos
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="productos.html">Montevideo</a></li>
+            <li><a class="dropdown-item" href="productos.html" onclick="mvdProc()">Montevideo</a></li>
             <li><a class="dropdown-item" href="productos.html" onclick="pdeProc()">Punta Del Este</a></li>
             
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#" style="border-radius: 3px; background-color: #65805f;">Comprar</a>
+          <a class="nav-link " href="#" style="border-radius: 3px; background-color: #65805f;" onclick="buyproc()">Comprar</a>
         </li>
         <li class="nav-item lm-3">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 1vw">
@@ -120,7 +120,15 @@ function footloader()
                     style="width: 60px; background-color: #7c4dff; height: 2px"
                     />
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius assumenda corrupti odio eum, sapiente rem hic provident distinctio necessitatibus laboriosam nemo, dolores et accusamus laudantium consequatur at velit odit earum.
+                  Focaccia Prado surgió en 2011 como un sueño de juventud y hoy es todo un proyecto de vida. 
+
+                  Estamos en la zona del Prado desde hace más de cuatro años.
+
+                  ¿Por qué tenés que venir a Focaccia? Por que encontrará pizzas, focaccias, calzones, pitas y nuestro clásico chivito. 
+
+                    Podes comprar para llevar o disfrutar en un lugar familiar y acogedor. 
+ 
+                  Te esperamos de martes a domingo entre las 20 y las 00 hs.
                 </p>
               </div>
               
@@ -206,5 +214,19 @@ function pdeProc()
   }else{
     sessionStorage.removeItem("mvd");
     sessionStorage.setItem("mvd",1);
+  }
+}
+
+function buyproc()
+{
+  if(sessionStorage.getItem("mvd")==0)
+  {
+    window.location.href="https://wa.me/+59899291229"
+  }else{
+    if(sessionStorage.getItem("mvd")==1)
+    {
+      window.location.href="https://wa.me/+59892442477"
+    }
+    
   }
 }

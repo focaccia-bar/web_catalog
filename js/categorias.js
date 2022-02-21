@@ -1,37 +1,37 @@
 let catdatamvd = [{
     nombre:"Pitas Frias",
     descripcion:"Pan plano de la región mediterránea, con rellenos frios.",
-    imagen:"img/wip.jpg",
+    imagen:"img/spollo.jpg",
     lista:2
   },{
     nombre:"Pitas Calientes",
     descripcion:"Pan plano de la región mediterránea, con rellenos calientes.",
-    imagen:"img/wip.jpg",
+    imagen:"img/stibio.jpg",
     lista:1
   },{
     nombre:"Focaccias",
     descripcion:"Plato tradicional de la cocina italiana muy relacionado con la pizza. Utiliza el mismo pan pero lleva hierbas, aceite de oliva y parmesano encima.",
-    imagen:"img/wip.jpg",
+    imagen:"img/faa.jpg",
     lista:3
   },{
     nombre:"De Bar",
     descripcion:"Productos tipicos de bar rioplatense.",
-    imagen:"img/wip.jpg",
+    imagen:"img/faina.jpg",
     lista:4
   },{
     nombre:"Calzone",
     descripcion:"Similar a una empanada. Masa de pizza completamente cerrada y horneada.",
-    imagen:"img/wip.jpg",
+    imagen:"img/ctradicional.jpg",
     lista:5
   },{
     nombre:"Pizzas",
     descripcion:"Nuestra seleccion de pizzas gourmet",
-    imagen:"img/wip.jpg",
+    imagen:"img/muzza.jpg",
     lista:6
   },{
     nombre:"Dulces",
     descripcion:"Postres dulces de la casa",
-    imagen:"img/wip.jpg",
+    imagen:"img/cheesecake.jpg",
     lista:7
   },{
     nombre:"Bebidas",
@@ -79,7 +79,7 @@ let catdatamvd = [{
         nombre:"Capresse",
         descripcion:"Mozzarella de bola, tomate en rodajas, albahaca, olivas",
         precio:260,
-        imagen:"img/wip.jpg"
+        imagen:"img/scapresse.jpg"
     },{
         nombre:"La fresca",
         descripcion:"Hojas de rúcula, bondiola, tomate, lascas de parmesano, oliva",
@@ -113,12 +113,12 @@ let catdatamvd = [{
         nombre:"Focacccia de ajo asado y mozzarella",
         descripcion:"Ajos asados y pisados derretidos junto con mozzarella",
         precio:400,
-        imagen:"img/wip.jpg"
+        imagen:"img/faa.jpg"
     },{
         nombre:"Focaccia de verduras escalivadas",
         descripcion:"Focaccia, rúcula, verduras de estación asadas, tomate, queso de cabra, olivas",
         precio:480,
-        imagen:"img/wip.jpg"
+        imagen:"img/Escalivada.jpg"
     },{
         nombre:"Focaccia filipo",
         descripcion:"mezclum de hojas verdes, tomates frescos, mozzarella de búfala, tapenade, olivas",
@@ -286,12 +286,12 @@ let catdatamvd = [{
         nombre:"Tropical",
         descripcion:"S. de tomate, mozzarella, ananá glaseado",
         precio:440,
-        imagen:"img/wip.jpg"
+        imagen:"img/olivas.jpg"
     },{
         nombre:"Fugaceta",
         descripcion:"Cebolla rehogada en oliva, provolone y crema",
         precio:460,
-        imagen:"img/wip.jpg"
+        imagen:"img/fugaceta.jpg"
     },{
         nombre:"Quattro Formagio",
         descripcion:"S. de tomate, mozzarella, provolone, parmesano, roquefort",
@@ -301,7 +301,7 @@ let catdatamvd = [{
         nombre:"Bianca",
         descripcion:"Queso crema, cebolla verdeo, panceta crocante, ciboulette",
         precio:480,
-        imagen:"img/wip.jpg"
+        imagen:"img/bianca.png"
     },{
         nombre:"Campesina",
         descripcion:"S. de tomate, mozzarella, rúcula, aceitunas negras, hongos, queso de cabra",
@@ -311,7 +311,7 @@ let catdatamvd = [{
         nombre:"Melanzane parmigiana",
         descripcion:"S. de tomate, berenjena grillada, mozzarella, parmesano",
         precio:470,
-        imagen:"img/wip.jpg"
+        imagen:"img/melanzane.jpg"
     },{
         nombre:"Prosciutto",
         descripcion:"s. de tomate, mozzarella, rúcula, jamón crudo, cherry, aceitunas negras",
@@ -533,7 +533,7 @@ let RefuerzosPDEData = [{
     nombre:"Capresse",
     descripcion:"tomate fresco, mozzarella de bola, albahaca, pimienta negra y aceite de oliva",
     precio:280,
-    imagen:"img/wip.jpg"
+    imagen:"img/scapresse.jpg"
 },{
     nombre:"Jamón Crudo",
     descripcion:"jamón crudo, queso brie, rúcula y pesto de tomates secos",
@@ -576,7 +576,7 @@ let CalzonePDEData = [{
     nombre:"De Vegetales",
     descripcion:"verduras asadas, ricota cremosa y queso fundido",
     precio:610,
-    imagen:"img/wip.jpg"
+    imagen:"img/scapresse.jpg"
 }];
 
 

@@ -20,11 +20,12 @@ function loadCategories(mvd)
        htmltoappend +=  `
        
        <div class="col-md-4 d-flex align-items-stretch">
-       <a href="productos.html" class="card mb-4 shadow-sm custom-card bg-dark text-white" style="text-decoration: none" onclick="recordarSeleccion(${cat.lista})">
+       <a href="productos.html" class="card mb-4 shadow-sm custom-card" style="text-decoration: none; background-color: #f2e7d4; color: black" onclick="recordarSeleccion(${cat.lista})">
+       
          <img class="bd-placeholder-img card-img-top"  src="${cat.imagen}">
-         <h3 class="m-3 text-white">${cat.nombre}</h3>
+         <h3 class="m-3">${cat.nombre}</h3>
          <div class="card-body">
-           <p class="card-text text-white">${cat.descripcion}</p>
+           <p class="card-text ">${cat.descripcion}</p>
          </div>
        </a>
      </div> `;
